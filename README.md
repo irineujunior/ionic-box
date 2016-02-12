@@ -4,6 +4,7 @@ Box para desenvolvimento de aplicações em Ionic
 ## Criando a Box
 
 ```
+$ mkdir ~/CodeIonic
 $ mkdir ~/IonicBox && cd ~/IonicBox
 $ wget https://raw.githubusercontent.com/irineujunior/ionic-box/master/Vagrantfile
 $ vagrant up
