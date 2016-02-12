@@ -14,7 +14,7 @@ Vagrant.configure(2) do |config|
 	config.vm.synced_folder "../CodeIonic", "/home/vagrant/CodeIonic"
 
 	config.vm.provider "virtualbox" do |vb|
-		vb.gui = true
+		vb.gui = false
 		vb.customize ["modifyvm", :id, "--vram", "128"]
 		vb.customize ["modifyvm", :id, "--usb", "on"]
 		vb.customize ["usbfilter", "add", "0", "--target", :id, "--name", "android", "--vendorid", "0x18d1"]
