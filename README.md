@@ -19,3 +19,6 @@ $ ionic serve
 ```
 
 Acesse `http://localhost:8100` e veja a aplicação =) 
+
+
+Fonte: http://digitaldrummerj.me/ionicbox-notes/
