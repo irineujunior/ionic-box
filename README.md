@@ -18,4 +18,4 @@ $ ionic start firstApp tabs && cd firstApp
 $ ionic serve
 ```
 
-Acesse http://localhost:8100 e veja a aplicação =) 
+Acesse `http://localhost:8100` e veja a aplicação =) 
